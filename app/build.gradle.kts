@@ -5,12 +5,13 @@ plugins {
 
 android {
     namespace = "com.mobileassistant.propeersmentorship"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.mobileassistant.propeersmentorship"
         minSdk = 24
-        targetSdk = 34
+        //noinspection EditedTargetSdkVersion
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
