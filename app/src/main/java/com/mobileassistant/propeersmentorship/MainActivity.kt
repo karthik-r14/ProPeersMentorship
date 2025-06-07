@@ -15,8 +15,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.app.ActivityCompat
+import com.mobileassistant.propeersmentorship.launch_mode_demo.SecondActivity
 import com.mobileassistant.propeersmentorship.ui.theme.ProPeersMentorshipTheme
 
 class MainActivity : ComponentActivity() {
@@ -44,7 +46,7 @@ class MainActivity : ComponentActivity() {
                             startService(it)
                         }
                     }) {
-                        Text(text = "Start run")
+                        Text(text = stringResource(R.string.start_run))
                     }
 
                     Button(onClick = {
@@ -53,7 +55,15 @@ class MainActivity : ComponentActivity() {
                             startService(it)
                         }
                     }) {
-                        Text(text = "Stop run")
+                        Text(text = stringResource(R.string.stop_run))
+                    }
+
+                    Button(onClick = {
+                        Intent(applicationContext, SecondActivity::class.java).also {
+                            startActivity(it)
+                        }
+                    }) {
+                        Text(text = stringResource(R.string.launch_second_activity))
                     }
                 }
             }
