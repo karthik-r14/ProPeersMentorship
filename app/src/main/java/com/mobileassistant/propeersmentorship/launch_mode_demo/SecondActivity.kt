@@ -47,6 +47,6 @@ class SecondActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Toast.makeText(this,
-            getString(R.string.second_activity_on_newintent_msg), Toast.LENGTH_SHORT).show()
+            getString(R.string.second_activity_on_destroy_msg), Toast.LENGTH_SHORT).show()
     }
 }
