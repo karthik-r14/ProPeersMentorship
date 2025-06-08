@@ -19,7 +19,7 @@ This repo comprises of assignments that were carried out during the Propeers men
 * Logs when HostActivity with Fragment is lauched 
 ![img.png](screenshots/screenshot_3.png)
 
-* Logs when screen goes into background
+* Logs when screen goes into background and screen is brought back to foreground.
   ![img.png](screenshots/screenshot_4.png)
 
 * Logs when back button is pressed
