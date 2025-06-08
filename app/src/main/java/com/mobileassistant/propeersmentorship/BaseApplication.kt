@@ -6,13 +6,16 @@ import android.app.NotificationManager
 import android.content.Context
 import android.os.Build
 
-class RunningApp : Application() {
+const val CHANNEL_ID = "channel_id"
+const val CHANNEL_NAME = "channel_name"
+
+class BaseApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(
-                "running_channel", "Running Notifications", NotificationManager.IMPORTANCE_HIGH
+                CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_DEFAULT
             )
 
             val notificationManager =
