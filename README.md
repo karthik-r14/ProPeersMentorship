@@ -8,8 +8,8 @@ This repo comprises of assignments that were carried out during the Propeers men
 *   Launch modes - Standard, SingleTop, SingleTask, SingleInstance.
 
 ## Screenshots
-###Music player app
+### Music player app
 ![img.png](screenshots/screenshot_1.png)
 
-###Player in Notification Tray
+### Player in Notification Tray
 ![img.png](screenshots/screenshot_2.png)
