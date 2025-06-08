@@ -3,6 +3,7 @@
     <string name="second_activity_label">Second Activity</string>
     <string name="third_activity_label">Third Activity</string>
     <string name="fourth_activity_label">Fourth Activity</string>
+    <string name="host_activity_label">Host Activity</string>
     <string name="launch_second_activity">Launch Second Activity</string>
     <string name="start_run">Start run</string>
     <string name="stop_run">Stop run</string>
@@ -11,4 +12,26 @@
     <string name="second_activity_on_newintent_msg">Second Activity onNewIntent</string>
     <string name="second_activity_on_create_msg">Second Activity onCreate</string>
     <string name="second_activity_on_destroy_msg">Second Activity onDestroy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="host_activity_on_create_msg">Host activity onCreate() invoked.</string>
+    <string name="host_activity_on_destroy_msg">Host Activity onDestroy() invoked.</string>
+    <string name="host_activity_text">This is Host Activity</string>
+    <string name="host_activity_on_start_msg">Host activity onStart() invoked.</string>
+    <string name="host_activity_on_resume_msg">Host activity onResume() invoked.</string>
+    <string name="host_activity_on_pause_msg">Host activity onPause() invoked.</string>
+    <string name="host_activity_on_stop_msg">Host activity onStop() invoked.</string>
+    <string name="host_activity_on_restart_msg">Host activity onRestart() invoked.</string>
+    <string name="my_fragment_on_create_view_msg">My Fragment onCreateView() invoked.</string>
+    <string name="my_fragment_on_create_msg">My Fragment onCreate() invoked.</string>
+    <string name="my_fragment_on_attach_msg">My Fragment onAttach() invoked.</string>
+    <string name="my_fragment_on_activity_created_msg">My Fragment onActivityCreated() invoked.</string>
+    <string name="my_fragment_on_detach_msg">My Fragment onDetach() invoked.</string>
+    <string name="my_fragment_on_start_msg">My Fragment onStart() invoked.</string>
+    <string name="my_fragment_on_resume_msg">My Fragment onResume() invoked.</string>
+    <string name="my_fragment_on_pause_msg">My Fragment onPause() invoked.</string>
+    <string name="my_fragment_on_stop_msg">My Fragment onStop() invoked.</string>
+    <string name="my_fragment_on_destroy_view_msg">My Fragment onDestroyView() invoked.</string>
+    <string name="my_fragment_on_destroy_msg">My Fragment onDestroy() invoked.</string>
+    <string name="launch_host_activity">Launch Host Activity</string>
 </resources>

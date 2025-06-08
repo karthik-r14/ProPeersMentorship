@@ -44,6 +44,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.lifecycleScope
+import com.mobileassistant.propeersmentorship.activity_fragment_lifecycle.HostActivity
 import com.mobileassistant.propeersmentorship.launch_mode_demo.SecondActivity
 import com.mobileassistant.propeersmentorship.ui.theme.ProPeersMentorshipTheme
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -104,9 +105,7 @@ class MainActivity : ComponentActivity() {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             ActivityCompat.requestPermissions(
-                this,
-                arrayOf(Manifest.permission.POST_NOTIFICATIONS),
-                0
+                this, arrayOf(Manifest.permission.POST_NOTIFICATIONS), 0
             )
         }
 
@@ -228,8 +227,15 @@ class MainActivity : ComponentActivity() {
                         }) {
                             Text(text = stringResource(R.string.launch_second_activity))
                         }
-                    }
 
+                        Button(onClick = {
+                            Intent(applicationContext, HostActivity::class.java).also {
+                                startActivity(it)
+                            }
+                        }) {
+                            Text(text = stringResource(R.string.launch_host_activity))
+                        }
+                    }
                 }
             }
         }
