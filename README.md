@@ -16,6 +16,11 @@ This repo comprises of assignments that were carried out during the Propeers men
 ![img.png](screenshots/screenshot_2.png)
 
 ### Activity Fragment Lifecycle 
+* Logs when HostActivity with Fragment is lauched 
 ![img.png](screenshots/screenshot_3.png)
-![img.png](screenshots/screenshot_4.png)
+
+* Logs when screen goes into background
+  ![img.png](screenshots/screenshot_4.png)
+
+* Logs when back button is pressed
 ![img.png](screenshots/screenshot_5.png)
